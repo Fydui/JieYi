@@ -15,8 +15,11 @@ Page1Form {
         height: 40
         x: 80
         y: 300;
-
+        onClicked: {        
+            getpix.get()
+        }     
     }
+     
     Button {
         id: orc
         text: "OCR识别"

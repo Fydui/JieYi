@@ -6,7 +6,5 @@
         <file>qtquickcontrols2.conf</file>
         <file>Page2.qml</file>
         <file>Page2Form.ui.qml</file>
-        <file>function.h</file>
-        <file>function.cpp</file>
     </qresource>
 </RCC>

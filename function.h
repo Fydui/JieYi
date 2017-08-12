@@ -1,11 +1,16 @@
-#ifndef FUNCTION_H
+﻿#ifndef FUNCTION_H
 #define FUNCTION_H
+#include <QObject>
+#include <QMouseEvent>
 
-
-class function
+class Pixget : public QObject 
 {
+    Q_OBJECT
+    
 public:
-    function();
+    Pixget(QObject* p = 0);
+    ~Pixget();
+    Q_INVOKABLE void get();
 };
 
 #endif // FUNCTION_H
